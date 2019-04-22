@@ -69,6 +69,7 @@ public class AC {
     /*
     使用方法参数接受请求中参数
      */
+
     @RequestMapping(value = "/test3")
     public String test3(String name, int age, Model model) {
         ModelAndView mv = new ModelAndView();
